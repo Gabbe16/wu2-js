@@ -79,7 +79,7 @@ function domAndEvents(element) {
 }
 
 function domManipulation(element) {
-  // Skapar ett nya element och lägger till dem
+  // Skapar nya element och lägger till dem
   let h1 = document.createElement('h1')
   element.appendChild(h1)
 
