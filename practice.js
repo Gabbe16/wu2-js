@@ -18,6 +18,7 @@ export function setupPractice(element) {
 // andra moment än där funktionen heter så såklart
 
 function varsAndTypes(element) {
+  // Några variabler och typer
   let name = 'Gabriel'
   let number = 0;
   let array = []
@@ -30,6 +31,7 @@ function varsAndTypes(element) {
 }
 
 function operators(element) {
+  // Några matematiska operatorer
   let a = 1 + 1
   let b = 2 - 2
   let c = 3 * 3
@@ -38,22 +40,27 @@ function operators(element) {
 }
 
 function controlStructures(element) {
+  // Variabler
   let i = 0
   let a = true
 
+  // For-Loop
   for (i = 0; i <= 10; i++) {
     console.log(i)
   }
 
+  // If-sats
   if (a === true) {
-    console.log('IF-sats')
+    console.log('If-sats')
   }
 }
 
 function arraysAndObjects(element) {
+  // Array där det läggs till en siffra
   let a = [1, 2, 3, 4, 5]
   a.push(6)
 
+  // Objekt
   let obj = {}
 
   console.log(a)
@@ -61,8 +68,10 @@ function arraysAndObjects(element) {
 }
 
 function domAndEvents(element) {
+  // Variabel med hjälp av selectorn id (#)
   let button = document.querySelector('#tryck')
 
+  // Lägger till en EventListener på knappen som ändrar texten
   button.addEventListener('click', () => {
     button.textContent = 'Du tryckte!'
   })
@@ -70,6 +79,7 @@ function domAndEvents(element) {
 }
 
 function domManipulation(element) {
+  // Skapar ett nytt element och lägger till den med text
   let p = document.createElement('p')
   element.appendChild(p)
 
