@@ -56,7 +56,7 @@ function controlStructures(element) {
 }
 
 function arraysAndObjects(element) {
-  // Array där det läggs till en siffra
+  // Array där det läggs till siffran 6
   let a = [1, 2, 3, 4, 5]
   a.push(6)
 
