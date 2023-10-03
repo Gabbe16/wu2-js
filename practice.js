@@ -16,12 +16,17 @@ export function setupPractice(element) {
 
 // du kan använda kontrollstrukturer och variabler etc. i 
 // andra moment än där funktionen heter så såklart
+
 function varsAndTypes(element) {
   let name = 'Gabriel'
   let number = 0;
+  let array = []
+  let obj = {}
 
   console.log(name, typeof (name))
   console.log(number, typeof (number))
+  console.log(array, typeof(array))
+  console.log(obj, typeof(obj))
 }
 
 function operators(element) {
