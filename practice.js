@@ -73,7 +73,7 @@ function domAndEvents(element) {
 
   // Lägger till en EventListener på knappen som ändrar texten med textcontent
   button.addEventListener('click', () => {
-    button.textContent = 'Du tryckte!'
+    button.textContent = 'Kolla i konsollen!'
   })
 
 }
