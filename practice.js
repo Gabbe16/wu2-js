@@ -1,11 +1,4 @@
 export function setupPractice(element) {
-  // följande funktioner körs i ordning
-  // se output i console.log()
-  // du ska i varje del arbeta med att visa vad du lärt dig
-  // i slutändan ska projektet köras och inte innehålla fel och
-  // du ska kunna förklara vad, hur varför PM
-
-  // Samtliga delar finns förklarade/beskrivna https://webbutveckling.jensa.dev/tekniker/javascript/
   varsAndTypes(element)
   operators(element)
   controlStructures(element)
@@ -13,9 +6,6 @@ export function setupPractice(element) {
   domAndEvents(element)
   domManipulation(element)
 }
-
-// du kan använda kontrollstrukturer och variabler etc. i 
-// andra moment än där funktionen heter så såklart
 
 function varsAndTypes(element) {
   // Några variabler och typer
