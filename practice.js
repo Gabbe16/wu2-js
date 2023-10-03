@@ -1,4 +1,4 @@
-export function setupPractice (element) {
+export function setupPractice(element) {
   // följande funktioner körs i ordning
   // se output i console.log()
   // du ska i varje del arbeta med att visa vad du lärt dig
@@ -17,30 +17,26 @@ export function setupPractice (element) {
 // du kan använda kontrollstrukturer och variabler etc. i 
 // andra moment än där funktionen heter så såklart
 function varsAndTypes(element) {
-  // kod för att visa vad du lärt dig om variabler och typer
   let name = 'Gabriel'
   let number = 0;
 
-  console.log(name, typeof(name))
-  console.log(number, typeof(number))
+  console.log(name, typeof (name))
+  console.log(number, typeof (number))
 }
 
 function operators(element) {
-  let a = 1+1
-  let b = 2-2
-  let c = 3*3
+  let a = 1 + 1
+  let b = 2 - 2
+  let c = 3 * 3
 
   console.log(a, b, c)
 }
 
 function controlStructures(element) {
-  // kod för att visa vad du lärt dig om kontrollstrukturer
-  // if och loopar
-
   let i = 0
   let a = true
 
-  for (i = 0 ; i <= 10 ; i++) {
+  for (i = 0; i <= 10; i++) {
     console.log(i)
   }
 
@@ -49,7 +45,7 @@ function controlStructures(element) {
   }
 }
 
-function arraysAndObjects (element) {
+function arraysAndObjects(element) {
   let a = [1, 2, 3, 4, 5]
   a.push(6)
 
@@ -59,17 +55,18 @@ function arraysAndObjects (element) {
   console.log(obj)
 }
 
-function domAndEvents (element) {
+function domAndEvents(element) {
   let button = document.querySelector('#tryck')
-  
+
   button.addEventListener('click', () => {
     button.textContent = 'Du tryckte!'
   })
 
 }
 
-function domManipulation (element) {
-  // kod för att visa vad du lärt dig om DOM-manipulation
-  // skapa element och lägga till och ta bort
-  element.innerHTML = 'dom manipulation, ändra och lägg till element'
+function domManipulation(element) {
+  let p = document.createElement('p')
+  element.appendChild(p)
+
+  p.textContent = 'Jag lades till med hjälp av DOM Manipulation!'
 }
