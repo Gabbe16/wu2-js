@@ -17,14 +17,12 @@ export function setupPractice (element) {
 // du kan använda kontrollstrukturer och variabler etc. i 
 // andra moment än där funktionen heter så såklart
 function varsAndTypes(element) {
+  // kod för att visa vad du lärt dig om variabler och typer
   let name = 'Gabriel'
   let number = 0;
+
   console.log(name, typeof(name))
   console.log(number, typeof(number))
-
-  // kod för att visa vad du lärt dig om variabler och typer
-  // let varsAndTypes = 'varsAndTypes'
-  // console.log(varsAndTypes, typeof(varsAndTypes))
 }
 
 function operators(element) {
@@ -52,8 +50,13 @@ function controlStructures(element) {
 }
 
 function arraysAndObjects (element) {
-  // kod för att visa vad du lärt dig om arrays och objekt
-  console.log(['arrays', {and: 'objects'}])
+  let a = [1, 2, 3, 4, 5]
+  a.push(6)
+
+  let obj = {}
+
+  console.log(a)
+  console.log(obj)
 }
 
 function domAndEvents (element) {
