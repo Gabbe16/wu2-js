@@ -83,5 +83,5 @@ function domManipulation(element) {
   let p = document.createElement('p')
   element.appendChild(p)
 
-  p.textContent = 'Jag lades till med hjälp av DOM Manipulation!'
+  p.textContent = 'Jag lades till med hjälp av DOM Manipulation ifrån practice.js!'
 }
