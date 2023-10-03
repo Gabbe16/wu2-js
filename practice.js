@@ -80,9 +80,13 @@ function domAndEvents(element) {
 
 function domManipulation(element) {
   // Skapar ett nytt element och lägger till den
+  let h1 = document.createElement('h1')
+  element.appendChild(h1)
+
   let p = document.createElement('p')
   element.appendChild(p)
 
   // Sätter texten på nylagda elementet
-  p.textContent = 'Jag lades till med hjälp av DOM Manipulation ifrån practice.js!'
+  h1.textContent = 'En header som lades till med DOM manipulation'
+  p.textContent = 'Jag lades till med hjälp av DOM manipulation ifrån practice.js!'
 }
