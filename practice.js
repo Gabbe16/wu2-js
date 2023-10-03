@@ -38,8 +38,17 @@ function operators(element) {
 function controlStructures(element) {
   // kod för att visa vad du lärt dig om kontrollstrukturer
   // if och loopar
-  let controlStructures = 'controlStructures'
-  console.log(controlStructures, controlStructures ? 'if' : 'loopar')
+
+  let i = 0
+  let a = true
+
+  for (i = 0 ; i <= 10 ; i++) {
+    console.log(i)
+  }
+
+  if (a === true) {
+    console.log('IF-sats')
+  }
 }
 
 function arraysAndObjects (element) {
