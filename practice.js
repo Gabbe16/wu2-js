@@ -28,8 +28,11 @@ function varsAndTypes(element) {
 }
 
 function operators(element) {
-  // kod för att visa vad du lärt dig om operatorer
-  console.log('operators === ', 1 === 1)
+  let a = 1+1
+  let b = 2-2
+  let c = 3*3
+
+  console.log(a, b, c)
 }
 
 function controlStructures(element) {
