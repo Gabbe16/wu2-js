@@ -40,7 +40,7 @@ function operators(element) {
 }
 
 function controlStructures(element) {
-  // Variabler
+  // Variabler för For-loopen och If-satsen
   let i = 0
   let a = true
 
@@ -56,7 +56,7 @@ function controlStructures(element) {
 }
 
 function arraysAndObjects(element) {
-  // Array där det läggs till siffran 6
+  // Array där det läggs till siffran 6 med hjälp av push funktionen
   let a = [1, 2, 3, 4, 5]
   a.push(6)
 
@@ -68,10 +68,10 @@ function arraysAndObjects(element) {
 }
 
 function domAndEvents(element) {
-  // Variabel med hjälp av selectorn id (#)
+  // Variabel med hjälp av selektorn id (#)
   let button = document.querySelector('#tryck')
 
-  // Lägger till en EventListener på knappen som ändrar texten
+  // Lägger till en EventListener på knappen som ändrar texten med textcontent
   button.addEventListener('click', () => {
     button.textContent = 'Du tryckte!'
   })
@@ -79,9 +79,10 @@ function domAndEvents(element) {
 }
 
 function domManipulation(element) {
-  // Skapar ett nytt element och lägger till den med text
+  // Skapar ett nytt element och lägger till den
   let p = document.createElement('p')
   element.appendChild(p)
 
+  // Sätter texten på nylagda elementet
   p.textContent = 'Jag lades till med hjälp av DOM Manipulation ifrån practice.js!'
 }
