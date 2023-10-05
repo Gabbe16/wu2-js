@@ -56,7 +56,8 @@ function arraysAndObjects(element) {
   })
 
   // Objekt
-  let obj = {}
+  // Lade till objekt egenskaper
+  let obj = { name: 'Gabriel', Age: 18 }
   console.log(obj)
 }
 
