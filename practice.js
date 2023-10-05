@@ -59,7 +59,8 @@ function arraysAndObjects(element) {
 
 function domAndEvents(element) {
   // Variabel med hjälp av selektorn id (#)
-  let button = document.querySelector('#tryck')
+  // Ändrade document.querySelector till element.queryselector
+  let button = element.querySelector('#tryck')
 
   // Lägger till en EventListener på knappen som ändrar texten med textcontent
   button.addEventListener('click', () => {
