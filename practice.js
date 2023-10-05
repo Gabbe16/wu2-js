@@ -50,10 +50,13 @@ function arraysAndObjects(element) {
   let a = [1, 2, 3, 4, 5]
   a.push(6)
 
+  // Lade till en foreach-loop
+  a.forEach((sak) => {
+    console.log(sak)
+  })
+
   // Objekt
   let obj = {}
-
-  console.log(a)
   console.log(obj)
 }
 
